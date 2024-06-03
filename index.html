@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Todo app</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="bg-hero"></div>
+
+        <div class="sec-1">
+            <h2>Todo</h2>
+            <button class="theme-switcher" id="theme-switcher">
+                <img src="images/icon-moon.svg" alt="icon-moon">
+            </button>
+        </div> 
+
+        <div class="sec-2">
+            <div class="cir"></div>
+            <input type="text" name="task" id="taskInput" placeholder="Create a new todo...">
+        </div>
+
+        <div class="sec-3">
+            <div id="taskBxDes">
+                <ul id="taskBx"></ul>
+            </div>
+        </div>
+
+        <div id="s3last-bx">
+            <p id="num">0 items left</p>
+            <a id="clr-btn">Clear Completed</a>
+        </div>
+         
+        <div class="last-lnks">
+            <p id="all" class="filterBtn">All</p>
+            <p id="active" class="filterBtn">Active</p>
+            <p id="completed" class="filterBtn">Completed</p>
+        </div>
+    </div>
+
+    <div class="dnd-div">
+        <p></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
