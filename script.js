@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    alert('In mobile you have to click on the circle left of the text to add task');
+    
     const taskInputVal = document.getElementById('taskInput');
     const ul = document.getElementById('taskBx');
     const num = document.getElementById('num');
