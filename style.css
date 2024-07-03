@@ -18,6 +18,7 @@
     --Very-Dark-Grayish-Blue: hsl(0, 0%, 100%);
     --Bright-Blue: hsl(220, 98%, 61%);
     --ul-color: hsl(236, 9%, 61%);
+    --Check-Background: linear-gradient(-230deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
     --ul-bg: #fff;
     --ul-border: #000;
     --hero-bg-desktop: url(images/bg-desktop-light.jpg);
